@@ -1,0 +1,39 @@
+{
+  "app_name": "RAG Document Intelligence Assistant with Evaluation Harness",
+  "app_type": "hybrid_fullstack",
+  "theme": "Dark Editorial AI Workspace",
+  "typography": {
+    "heading": "Outfit, sans-serif",
+    "body": "Inter, sans-serif",
+    "mono": "JetBrains Mono, monospace"
+  },
+  "colors": {
+    "background": "#0b0f19",
+    "surface": "#131b2e",
+    "surface_highlight": "#1e293b",
+    "primary": "#38bdf8",
+    "accent": "#818cf8",
+    "text_primary": "#f8fafc",
+    "text_secondary": "#94a3b8",
+    "border": "#334155"
+  },
+  "image_urls": [
+    {
+      "category": "neural_background",
+      "url": "https://images.unsplash.com/photo-1677784976154-816c3ceca511",
+      "description": "Abstract blue glowing dots forming wave patterns"
+    },
+    {
+      "category": "neural_mesh",
+      "url": "https://images.pexels.com/photos/17483871/pexels-photo-17483871.png",
+      "description": "Elegant 3D visualization of neural networks showcasing abstract connections"
+    },
+    {
+      "category": "workspace",
+      "url": "https://images.unsplash.com/photo-1510519138101-570d1dca3d66",
+      "description": "Dark minimalist tech workspace with computer monitor"
+    }
+  ],
+  "component_path": "/app/frontend/src/components/",
+  "instructions_to_main_agent": "Build a stunning, professional dark editorial AI workspace frontend in React with Tailwind CSS. Implement tabs for Document Workspace & Chat, Vector Store Inspector (pgvector simulation), and Evaluation Lab (question sets, RAG configurations, metrics comparison). Ensure every interactive element has testids, use lucide-react for icons, and provide rich dummy initial documents and evaluation question sets so the UI is fully functional immediately."
+}
